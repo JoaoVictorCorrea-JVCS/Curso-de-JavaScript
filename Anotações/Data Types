@@ -1,0 +1,12 @@
+Tipo de Dados:
+
+1. number;
+    Infinity
+    NaN
+2. string;
+3.boolean;
+4. null;
+5. undefined;
+6. object;
+    Array
+7. function;

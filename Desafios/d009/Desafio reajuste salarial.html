@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio reajuste salarial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Reajuste salarial</h1>
+    </header>
+    <section>
+        <div>
+            Qual é o nome do funcionário?
+            <input type="text" name="txtn" id="txtn">
+            Qual é o salário do funcionário?
+            <input type="number" name="txts" id="txts">
+            O salário do funcionário vai ser reajustado em qual porcentagem?
+            <input type="number" name="txtp" id="txtp">
+            <input type="button" value="Reajustar Salário" onclick="reajustar()" id="b">
+            <input type="button" value="Limpar" onclick="limpar()" id="b">
+        </div>
+        <div id="res">
+            Clique no botão acima para iniciar.
+        </div>
+    </section>
+    <footer>
+        <p>&copy; JoãoV</p>
+        <script src="script.js"></script>
+    </footer>
+</body>
+</html>

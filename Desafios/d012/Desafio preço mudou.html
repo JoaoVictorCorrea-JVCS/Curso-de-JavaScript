@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preço mudou</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Preço mudou</h1>
+    </header>
+    <section>
+        <div>
+            Qual era o preço anterior do produto?
+            <input type="number" name="txtpant" id="txtpant">
+            Qual é o preço atual do produto?
+            <input type="number" name="txtpdps" id="txtpdps">
+            <input type="button" value="Verificar" onclick="verificar()" id="b">
+            <input type="button" value="Limpar" onclick="limpar()" id="b">
+        </div>
+        <div id="res">
+            Clique no botão acima para analisar a mudança de preço.
+        </div>
+    </section>
+    <footer>
+        <p>&copy; JoãoV</p>
+        <script src="script.js"></script>
+    </footer>
+</body>
+</html>

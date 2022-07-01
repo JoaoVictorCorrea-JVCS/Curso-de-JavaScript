@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor monetário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Conversor monetário (R$ -> US$)</h1>
+    </header>
+    <section>
+        <div>
+            Qual a cotação do dólar atualmente?
+            <input type="number" name="cotação" id="txtcn">
+            Quantos R$ você tem na carteira?
+            <input type="number" name="valor total" id="txtvt">
+            <input type="button" value="Converter" onclick="converter()" id="b">
+            <input type="button" value="Limpar" onclick="limpar()" id="b">
+        </div>
+        <div id="res">
+            Clique no botão acima para iniciar.
+        </div>
+    </section>
+    <footer>
+        <p>&copy; JoãoV</p>
+        <script src="script.js"></script>
+    </footer>
+</body>
+</html>

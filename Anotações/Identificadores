@@ -1,0 +1,22 @@
+Identificadores: 
+
+1. Podem começar com letra, $ ou _; 
+    Exemplo: var $string = '12' ou  let _number = 12
+
+2. Não podem começar com números;
+    Exemplo: let 3t = 'TTT'
+
+3. É possível usar acentos e símbolos;
+    Exemplo: var ó = '0' ou let @ó = 0
+
+4. Não podem conter espaços;
+    Exemplo: let 2 e 3 = 'Dois e Três'
+
+5. Não podem ser palavras reservadas;
+    Exemplo: var alert = 'ALERTA!'
+
+Dicas:
+
+1. Maiúsculas e minúsculas fazem diferença;
+2. Tente escolher nomes coerentes para as variáveis;
+3. Evite se tornar um 'progamador alfabeto' ou um 'progamador contador'; 

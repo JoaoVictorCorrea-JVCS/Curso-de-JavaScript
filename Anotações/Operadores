@@ -1,0 +1,91 @@
+Operadores:
+
+1. Aritméticos;
+   5 + 2  👉 7
+   5 - 2  👉 3
+   5 * 2  👉 10
+   5 / 2  👉 2.5
+   5 % 2  👉 1
+   5 ** 2 👉 25
+   Precedência:
+    1. | ()|
+    2. | **|
+    3. | * | / | %
+    4. | + | - |
+2. Atribuição;
+    Atribuição simples:
+        var a = 5 + 3         👉 8
+        var b = a % 5         👉 3
+        var c = 5 * b ** 2    👉 45
+        var d = 10 - a / 2    👉 6
+        var e = 6 * 2 / d     👉 2
+        var f = b % e + 4 / e 👉 3
+    Auto-atribuições:
+        var n = 3  👉 3
+        n = n + 4  👉 7 (Perde valor 3)   || n += 4
+        n = n - 5  👉 2 (Perde valor 7)   || n -= 5
+        n = n * 4  👉 8 (Perde valor 2)   || n *= 4
+        n = n / 2  👉 4 (Perde valor 8)   || n /= 2 
+        n = n ** 2 👉 16 (Perde valor 4)  || n **= 2
+        n = n % 5  👉 1 (Perde valor 16)  || n %= 5
+    Incremento:
+        var x = 5 👉 5
+        x = x + 1 👉 6 (Perde valor 5) || x += 1 || x++ || ++x
+        x = x - 1 👉 5 (Perde valor 6) || x -= 1 || x-- || --x
+3. Relacionais;
+    5 > 2  👉 true
+    7 < 4  👉 false
+    8 >= 8 👉 true
+    9 <= 7 👉 false
+    5 == 5 👉 true
+    4 != 4 👉 false
+    Identidade:
+        5 == 5    👉 true
+        5 == '5'  👉 true
+        5 === '5' 👉 false
+        5 === 5   👉 true
+
+4. Lógicos;
+    !  👉 Negação
+    && 👉 Conjunção
+    || 👉 Disjunção
+    Precedência:
+        1. !
+        2. &&
+        3. ||
+5. Ternário;
+    teste ? true : false
+Ordem de precedência geral:
+    1. () | ** | / * % | + -
+    2. > < >= != == 
+    3. !
+    4. &&
+    5. ||
+    6. ? :
+
+Todos os operadores:
+
++   👉 Adição para Number e concatenação para String;
+-   👉 Subtração;
+*   👉 Multiplicação;
+/   👉 Divisão;
+%   👉 Resto da divisão;
+**  👉 Potência;
+>   👉 Maior que;
+<   👉 Menor que;
+>=  👉 Maior e igual que;
+<=  👉 Menor e igual que;
+==  👉 Igual;
+=== 👉 Igual idêntico;
+!=  👉 Diferente de;
+++  👉 Recebe +1;
+--  👉 Recebe -1;
+-=  👉 Menor igual que;
++=  👉 Maior igual que;
+**= 👉 Potência;
+%=  👉 Resto da divisão;
+*=  👉 Multiplicação;
+/=  👉 Divisão;
+!   👉 Negação;
+&&  👉 Conjunção;
+||  👉 Disjunção;

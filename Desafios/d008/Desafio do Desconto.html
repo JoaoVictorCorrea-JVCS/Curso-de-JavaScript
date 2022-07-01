@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio do Desconto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calcular Desconto</h1>
+    </header>
+    <section>
+        <div>
+            Qual é o produto que você está comprando?
+            <input type="text" name="txtp" id="txtp">
+            Qual é o preço do produto?
+            <input type="number" name="txtv" id="txtv">
+            <input type="button" value="Desconto de 10%" onclick="desconto()" id="b">
+            <input type="button" value="Limpar" onclick="limpar()" id="b">
+
+        </div>
+        <div id="res">
+            Clique no botão acima para iniciar.
+        </div>
+    </section>
+    <footer>
+        <p>&copy; JoãoV</p>
+        <script src="script.js"></script>
+    </footer>
+</body>
+</html>

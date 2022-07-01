@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AEROPORTO</title>
+</head>
+<body>
+    <h1>Qual é o seu país!</h1>
+    País do qual veio: <input type="text" name="país" id="pais">
+    <input type="button" value="Verificar" onclick="Verificar()">
+    <div id="res">
+
+    </div>
+    <script>
+        function Verificar() {
+            var pais = (document.getElementById('pais').value.toLowerCase())
+            var res = document.getElementById('res')
+            if (pais == "brasil") {
+                res.innerHTML += `<p>Vivendo em <strong>${pais}</strong>, você é <strong>Brasileiro!</strong></p>`
+            } else {
+                res.innerHTML += `<p>Vivendo em <strong>${pais}</strong>, você é <strong>Estrangeiro!</strong></p>`
+            }
+
+
+
+        }
+    </script>
+</body>
+</html>

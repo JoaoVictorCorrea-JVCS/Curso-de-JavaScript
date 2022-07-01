@@ -1,0 +1,37 @@
+Comandos JS:
+
+window.alert            |  Gera uma caixa de texto como alerta em cima da tela.
+window.confirm          |  Gera uma caixa de texto como confirmação em cima da tela.
+window.prompt           |  Gera uma caixa de texto com inserível e confirmação em cima da tela.
+var TEXTO = texto       |  Guarda um tipo de dados dentro da varíavel. (Escopo Global)
+let TEXTO = texto       |  Guarda um tipo de dados dentro da let. (Escopo local)
+Number.parseInt(n)      |  Troca o valor de um dado string a um número inteiro.
+Number.parseFloat(n)    |  Troca o valor de um dado string a um número quebrado. 
+Number(n)               |  Troca o valor de um dado string a um número inteiro ou quebrado dependendo do valor.
+n.toString()            |  Troca o valor de um dado number a um valor string.
+String(n)               |  Troca o valor de um dado number a um valor string.
+(Number + Number)       |  Soma.
+(String + String)       |  Concatenação.
+s.toUpperCase()         |  Deixa tudo maiúscula.
+s.toLowerCase()         |  Deixa tudo minúsculo."
+s.length                |  Verifica a quantia de caracteres que a string tem.
+document.write()        |  Escreve na tela.
+n.toFixed(n)            |  Força a quantia de casas depois da vírgula.
+s.replace('s', 's')     |  Substitui uma string por outra string.
+n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) | Transforma um número em valor monetário.
+function TEXTO(param) {}|  Realiza o código dentro do bloco {} quando é chamado por meio de um evento.
+addEventListener('TEXTO', TEXTO) |  Gera um evento DOM dentro do JS.
+if (condição) {}        | Realiza uma ação se for true e outra se for false.
+vetor.push(n)           |  Adiciona um valor ao vetor.
+n.length                |  Conta quantos elementos existem dentro de um vetor.
+num.sort()              |  Reordena os valores de um vetor em ordem crescente.
+num.indexOf(n)          |  Procura um valor que está entre parenteses dentro do vetor e retorna o indice caso ache ou -1 caso não ache.
+
+Eventos DOM:
+    mouseover           |  Dispara um evento quando o mouse entra em um determinado local.
+    mousemove           |  Dispara um evento enquanto o mouse se mover em um determinado local.
+    mousedown           |  Dispara um evento quando clica e segura.
+    mouseup             |  Dispara um evento quando solta o click.
+    mouseout            |  Dispara um evento quando o mouse sai de um determinado local.
+    onclick             |  Dispara um evento quando clica.
+    onload              |  Dispara um evento quando carrega a página.

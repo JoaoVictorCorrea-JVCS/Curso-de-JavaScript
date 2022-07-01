@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando o Troco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculando o Troco</h1>
+    </header>
+    <section>
+        <div>
+            Qual produto você vai comprar?
+            <input type="text" name="Produto" id="txtp">
+            Qual valor do produto que você vai comprar?
+            <input type="number" name="Valorp" id="txtvp">
+            Quanto você vai pagar no produto?
+            <input type="number" name="Valor Total" id="txtvt">
+            <input type="button" value="Comprar produto" onclick="comprar()" id="b">
+            <input type="button" value="Limpar" onclick="limpar()" id="b">
+        </div>
+        <div id="res">
+            Clique no botão acima para iniciar.
+        </div>
+    </section>
+    <footer>
+        <p>&copy; JoãoV</p>
+        <script src="script.js"></script>
+    </footer>
+</body>
+</html>

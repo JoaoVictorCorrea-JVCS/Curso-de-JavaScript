@@ -1,0 +1,14 @@
+Seleção em JS:
+    Por Marca;
+        getElementsByTagName()
+    Por ID;
+        getElementsById()
+    Por Nome;
+        getElementsByName()
+    Por Classe;
+        getElementsByClass
+    Por Seletor;
+        querySelector()
+        querySelectorAll()
+        ID    = #
+        Class = .
